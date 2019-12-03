@@ -1,0 +1,4 @@
+﻿  h16.cpp
+  C:\Users\Rolo\Desktop\Development\repos\h16\h16\h16.cpp(131) : warning C4715: 'Palindrome': not all control paths return a value
+  C:\Users\Rolo\Desktop\Development\repos\h16\h16\h16.cpp(213) : warning C4715: 'Password': not all control paths return a value
+  h16.vcxproj -> C:\Users\Rolo\Desktop\Development\repos\h16\Debug\h16.exe
