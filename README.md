@@ -1,5 +1,5 @@
 # h16_cpp
-Nachadzajú sa tu úlohy z webstránky *itcpp.szm.com* ale nachádzajú sa tam aj iné úlohy.
+Nachadzajú sa tu úlohy z webstránky *itcpp.szm.com*.
 
 ## Obsah
 - **h16.sln** - VS Solution, Code::Blocks to nepotrebuje.
