@@ -11,14 +11,21 @@ Dokumenty ktoré sú pomenované po nejakej funkcií zo ZK su vytvorené/potrebn
 
 ### Funckie
 ```
-Spotreba
+Vypis_1
+Vypis_2	
+Vypis_3	
+Udaje_ziak
+Automobil	
+Trieda
+Radian
+Stupen
+Spotreba						
 OdKonca
 Prienik
 PrienikPrehod
-Palindrome
+Palindrome	
 Parne
 AritPriemer
 ZapisRetazcov
-Password
-Sifrovanie - Nedokončený
+Sifrovanie
 ```
