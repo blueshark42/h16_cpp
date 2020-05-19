@@ -37,7 +37,7 @@ Vždy priamo deklarované typy `int, float, bool...`, zriedka automaticky `auto`
 - Events                    - `UpperCamelCase`
 
 ### Postup
-```
+```cpp
 <Includes>
 
 <Preprocessor Dir>
@@ -50,7 +50,7 @@ Vždy priamo deklarované typy `int, float, bool...`, zriedka automaticky `auto`
 <Declaration>
 ```
 Napr.:
-```
+```cpp
 #include <iostream>
 #include <vector>
 
