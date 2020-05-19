@@ -1,1 +1,106 @@
+// 1. Kde je nespravne napisany priklad?
+// Premenne mozu byt: int, float, double, bool, char, string
 
+if (a==5||a!=4)
+if (c&&d)
+if(a=5||b)
+
+
+// 2. Vysvetli ze tento kod preco nema vyznam?
+// Premenna 'a'
+
+int temp = 0;
+int a = 5;
+int b = 2;
+
+temp = a;
+a = b;
+b = temp;
+a = temp;
+
+return a;
+
+
+// 3. Ktoru funkciu vyuzijeme ked chceme do 'string text' napisat na koniec 'I.B'
+
+memset(); // a
+memcpy(); // b
+memdel(); // c
+memret(); // d
+
+
+// 4. Co je tu error?
+
+Enemy* bojovnik = new Enemy();
+Enemy* bojovnik = new Enemy();
+
+// Ak mozes upravit ten error?
+
+
+// 5. 'BMW' je?
+
+Vozidlo* BMW = new Vozidlo();
+
+// Pointer na Class 'Vozidlo'; A
+// Class 'Vozidlo'; B
+// Pointer na adresu vozidla 'BMW'; C
+// Nejaka picovina; D
+
+
+// 6. Co returnuje 'string TXT'?
+
+int a = 3, b = 3;
+int main()
+{
+    TXT(text);
+}
+
+void Funkcia()
+{
+    string text = "C++";
+    a+b;
+    return text;
+}
+
+string TXT(string text)
+{
+    return text;
+}
+
+// A, C++
+// B, Compilator Error
+// C, Nic
+// D, 6C++
+
+
+// 7. #include <iostream> je:
+
+// A, Preprocesor direktiva
+// B, iostream.exe dokument
+// C, Heap memory direktiva
+// D, Postprocesor direktiva
+
+
+// 8. Co je tu error?
+
+void ZapisRetazcov(std::string inval[])
+{
+	std::fstream file;
+	file.open("ZapisRetazcov.txt");
+
+	if (!file.is_open()) 
+		std::cout << "Error opening file!\n";
+
+	
+	for (int i = 0; i < sizeof(inval) / sizeof(*inval); i++)
+	{
+		std::cout << inval[i];
+		if (inval[i].length() < 10)
+		{
+			file << inval[i];
+		}
+	}
+
+	file.close();
+    return file;
+}
