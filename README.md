@@ -9,23 +9,43 @@ Nachadzajú sa tu úlohy z webstránky *itcpp.szm.com*.
 
 Dokumenty ktoré sú pomenované po nejakej funkcií zo ZK su vytvorené/potrebné aby to počítač zkompiloval. Pri kompilácii ich program vytvorí.
 
-### Funckie
+## Source Code
+
+### Declaring
+Vždy priamo deklarované typy `int, float, bool...`, zriedka automaticky `auto`.
+
+### Naming Style
+- Classes and structs       - `UpperCamelCase`
+- Enums                     - `UpperCamelCase`
+- Unions                    - `all_lower`
+- Template Parameters       - `UpperCamelCase`
+- Parameters                - `all_lower`
+- Local Variables           - `all_lower[all_lower]`
+- Global Variables          - `all_lower[all_lower]`
+- Global Functions          - `UpperCamelCase`
+- Class and struct methods  - `UpperCamelCase`
+- Class and struct fields   - `all_lower_`
+- Class and str public fld. - `all_lower`
+- Union Members             - `all_lower`
+- Enum Members              - `ALL_UPPER`
+- Other Constants           - `kUpperCamelCase`
+- Global Constants          - `kUpperCamelCase`
+- Namespaces                - `all_lower`
+- Typedefs                  - `all_lower`
+- Macros                    - `ALL_UPPER`
+- Properties                - `UpperCamelCase`
+- Events                    - `UpperCamelCase`
+
+### Postup
 ```
-Vypis_1
-Vypis_2	
-Vypis_3	
-Udaje_ziak
-Automobil	
-Trieda
-Radian
-Stupen
-Spotreba						
-OdKonca
-Prienik
-PrienikPrehod
-Palindrome	
-Parne
-AritPriemer
-ZapisRetazcov
-Sifrovanie
+<Includes>
+
+<Preprocessor Dir>
+
+<Definition>
+
+<int main>
+
+<struct, class, typedef...>
+<Declaration>
 ```
